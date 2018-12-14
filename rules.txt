@@ -1,1 +1,24 @@
-\[[0-9]+\]
+#- comments may be added by prepending `#- ` to lines. note: SPACE MUST BE INCLUDED
+malloc\(
+calloc\(
+realloc\(
+aligned_alloc\(
+system\(
+exec\(
+execl\(
+fork\(
+vfork\(
+spawn\(
+strcpy\(
+memset\(
+memcpy\(
+gets\(
+getenv\(
+putenv\(
+free\(
+readlink\(
+rand\(
+random\(
+access\(
+sprintf\(
+[A-Za-z0-9]\[[A-Za-z0-9_]+\]\s*=
